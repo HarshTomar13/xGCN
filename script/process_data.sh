@@ -3,7 +3,7 @@ ALL_DATA_ROOT='/home/hush/SemVII/course_work/Graph_Learning/project/data'
 
 cd process_data
 
-DATASET='pokec'
+DATASET='cora'
 
 bash handle_edge_list_txt.sh $PROJECT_ROOT $ALL_DATA_ROOT $DATASET
 

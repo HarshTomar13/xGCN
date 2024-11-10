@@ -3,7 +3,7 @@ ALL_DATA_ROOT='/home/hush/SemVII/course_work/Graph_Learning/project/data'
 
 DEVICE='cuda:0'
 
-DATASET='pokec'
+DATASET='cora'
 
 MODEL='xgcn'
 

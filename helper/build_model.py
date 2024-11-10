@@ -1,8 +1,8 @@
 from model.LightGCN import LightGCN
 from model.xGCN import xGCN
-from model.xGCN_ii import xGCN_ii
-from model.xGCN_multi import xGCN_multi
-from model.xxGCN import xxGCN
+#from model.xGCN_ii import xGCN_ii
+#from model.xGCN_multi import xGCN_multi
+#from model.xxGCN import xxGCN
 from model.UltraGCN.UltraGCN import UltraGCN
 from model.UltraGCN.UltraGCN_v0 import UltraGCN_v0
 from model.SimpleX import SimpleX
@@ -25,9 +25,9 @@ def build_model(config, data):
         'block_lightgcn': Block_LightGCN,
         'block_simplex': Block_SimpleX,
         'xgcn': xGCN,
-        'xgcn_ii': xGCN_ii,
-        'xgcn_multi': xGCN_multi,
-        'xxgcn': xxGCN,
+        #'xgcn_ii': xGCN_ii,
+        #'xgcn_multi': xGCN_multi,
+        #'xxgcn': xxGCN,
         'ultragcn': UltraGCN,
         'ultragcn_v0': UltraGCN_v0,
         'simplex': SimpleX,
