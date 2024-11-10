@@ -1,5 +1,5 @@
-PROJECT_ROOT='/home/xxx/code/xgcn'
-ALL_DATA_ROOT='/home/xxx/data/xgcn_data'
+PROJECT_ROOT='/home/hush/SemVII/course_work/Graph_Learning/project/xGCN'
+ALL_DATA_ROOT='/home/hush/SemVII/course_work/Graph_Learning/project/data'
 
 DEVICE='cuda:0'
 
